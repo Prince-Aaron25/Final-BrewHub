@@ -15,7 +15,7 @@ class BrewHubApp(ctk.CTk):
         super().__init__()
         theme.style_ttk(self)
         self.title("BrewHub - Cafe Ordering and Inventory")
-        self.geometry("1240x820")
+        self.geometry("1240x666")
         self.minsize(1000,700)
         self.current_frame = None
         self.user = None
